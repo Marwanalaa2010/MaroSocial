@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MaroSocial </title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>مرحبًا بك في MaroSocial </h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">الصفحة الرئيسية</a></li>
+      <li><a href="#">الملف الشخصي</a></li>
+      <li><a href="#">الأصدقاء</a></li>
+      <li><a href="#">الإشعارات</a></li> <!-- الإضافة الجديدة -->
+      <li><a href="#">طلبات الصداقة</a></li> <!-- الإضافة الجديدة -->
+    </ul>
+  </nav>
+
+  <section id="status-section">
+    <h2>تحديث الحالة</h2>
+    <form id="status-form">
+      <textarea id="status-text" placeholder="ما الجديد؟"></textarea>
+      <button type="submit">نشر</button>
+    </form>
+    
+    <div id="status-updates">
+      <!-- هنا يتم عرض تحديثات الحالة -->
+    </div>
+  </section>
+
+  <section id="messaging-section">
+    <h2>المراسلة الفورية</h2>
+    <div id="chat-container">
+      <div id="chat-messages">
+        <!-- هنا يتم عرض رسائل المحادثة -->
+      </div>
+      <form id="chat-form">
+        <input type="text" id="chat-input" placeholder="اكتب رسالتك">
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

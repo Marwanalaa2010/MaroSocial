@@ -1,0 +1,50 @@
+/* أضف تنسيقات CSS هنا */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    padding: 5px;
+    color: #333;
+  }
+  
+  #status-section, #messaging-section {
+    margin-top: 20px;
+  }
+  
+  #status-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  #chat-messages {
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  
+  #chat-form input[type="text"] {
+    width: 80%;
+    margin-right: 10px;
+  }
+  
+  #chat-form button {
+    padding: 5px 10px;
+  }
